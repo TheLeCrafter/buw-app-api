@@ -1,0 +1,23 @@
+{
+  "name": "bundesumweltwettbewerbapi",
+  "version": "1.0.0",
+  "description": "Official API for the Bundesumweltwettbewerbs App by TheLeCrafter",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npm i && tsc && node ./lib/index.js",
+    "start": "node ./lib/index.js"
+  },
+  "keywords": [],
+  "author": "TheLeCrafter",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2",
+    "morgan": "^1.10.0",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/morgan": "^1.9.3",
+    "ts-node": "^10.4.0"
+  }
+}
