@@ -1,4 +1,5 @@
 # Bundesumweltwettbewerb App Api
+[![CodeQL](https://github.com/TheLeCrafter/buw-app-api/actions/workflows/codeql-analysis.yml/badge.svg?branch=master)](https://github.com/TheLeCrafter/buw-app-api/actions/workflows/codeql-analysis.yml) <br>
 On startup the app will download the blog post content and display it nicely. The api is hosted at https://buw-api.thelecrafter.dev/data for the data and at https://buw-api.thelecrafter.dev/thumbnails/<image.png> for the images.
 
 ## Building
