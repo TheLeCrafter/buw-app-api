@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "compile": "npm i && tsc && node ./lib/index.js",
-    "start": "node ./lib/index.js"
+    "start": "node ./lib/index.js",
+    "cli": "node cli.js"
   },
   "keywords": [],
   "author": "TheLeCrafter",
