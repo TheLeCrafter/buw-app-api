@@ -17,7 +17,11 @@ app.use(morgan("tiny"));
 app.use(express.static("./public"));
 
 app.get("/data", (request, response) => {
-    response.json(JSON.parse(fs.readFileSync("./public/data/app_posts.json", "utf-8")))
+    try {
+        response.json(JSON.parse(fs.readFileSync("./public/data/app_posts.json", "utf-8")))
+    } catch (err) {
+        response.status(500)
+    }
 });
 
 app.listen(port, () => {
