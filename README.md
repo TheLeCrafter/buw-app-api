@@ -15,3 +15,6 @@ The project is written in TypeScript and has to be compiled to JavaScript on fir
 - Node JS >= 17.3.0
 
 Clone the repository and run ``npm run cli``. Go through all steps and copy the generated output from the console into the /public/data/app_posts.json file.
+
+# Archived
+There is no need to use a custom api when you can upload the files to GitHub itself in another repository. I may unarchive it if necessary. 
